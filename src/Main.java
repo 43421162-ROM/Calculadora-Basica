@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    prblic static void main(string[] args) {
+    public static void main(String[] args) {
         // Creacion del objeto Scanner
         Scanner entrada = new Scanner(System.in);
 
@@ -18,13 +18,13 @@ public class Main {
         int num2 = entrada.nextInt();
 
         // Creamos un objeto de tipo Calculadora
-        Calculadora caluladora = new Calculadora();
+        Calculadora calculadora = new Calculadora();
 
         // Realizamos las operaciones correspondientes
-        int suma * calculdora.suma(num1, num2);
-        int resta * caluladora.resta(num1, num2);
-        int multiplicacion * caluladora.multiplicacion(num1, num2);
-        int division * caluladora.division(num1, num2);
+        int suma = calculadora.suma(num1, num2);
+        int resta = calculadora.resta(num1, num2);
+        int multiplicacion = calculadora.multiplicacion(num1, num2);
+        int division = calculadora.division(num1, num2);
 
         // Impresión de resultados
         System.out.println("El resultado de la suma es: " + suma);
